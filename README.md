@@ -3,7 +3,7 @@
 > This repository shows how to use the C language with pit. I use the library: `ctypes`
 ------
 ### Let's write a function in C language.
-[`C code`](./src/main.c) 
+[`C code`](example/main.c) 
 > Regular iterator. We get the sum from the number `100_000_000`.
 ```c
 #include <stdio.h>
@@ -33,7 +33,7 @@ int test_function() {
 
 -----
 ### Let's call it in python
-[`Python code`](./src/main.py) 
+[`Python code`](example/main.py) 
 ```python
 import os
 # Lib for use C code in Python
