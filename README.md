@@ -26,9 +26,9 @@ int test_function() {
 ### Next, let's compile the code.
 ```shell
 # For linux
->>> gcc -shared -Wl, -soname, adder -o test_lib.so -fPIC main.c
+>>> gcc -fPIC -shared -o test_lib.so main.c
 # For windows
->>> gcc -shared -Wl, -soname, adder -o test_lib.dll -fPIC main.c
+>>> gcc -fPIC -shared -o test_lib.dll main.c
 ```
 
 -----
